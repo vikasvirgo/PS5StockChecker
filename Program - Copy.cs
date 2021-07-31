@@ -7,13 +7,15 @@ namespace HttpClientEx
 {
     class Program
     {
+        // first change
         static async Task Main(string[] args)
         {
             var isAvailable = false;
             var unavailablectr = 0;
 
             while (!isAvailable)
-            {                
+            {     
+                
                 Thread.Sleep(4000);
                 var client = new HttpClient();
                 //PS5
